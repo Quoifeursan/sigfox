@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>
+		Eco-compteur de Randonnée
+	</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="global">
+
+	<div id="entete">
+
+		<p class="sous-titre">
+
+		</p>
+	</div>
+
+
+
+	<div id="contenu">
+	<h2>eCompteur de randonnée</h2>
+    <table>
+  <tr>
+    <th>
+    <label for="limit">Nombre de passages des 24 dernieres heures</label>
+    <button onclick="calcLimit(document.getElementById('limit'))">actualiser</button> 
+<p id="result"></p> </th>
+    <!-- Bouton des 24 dèrniers messages avec l'information récupérée depuis le Javascript -->
+  
+
+</table>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+    <!-- uttilisation des scripts -->
+</div>
+
+</body>
+</html>
